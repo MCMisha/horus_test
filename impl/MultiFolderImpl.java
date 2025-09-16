@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class MultiFolderImpl implements MultiFolder {
-    List<Folder> folders;
+    private final List<Folder> folders;
 
     public MultiFolderImpl(List<Folder> folders) {
         this.folders = folders;
